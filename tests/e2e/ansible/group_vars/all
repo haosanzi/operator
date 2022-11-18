@@ -8,6 +8,9 @@ build_pkgs:
   centos:
     - make
     - gcc
+  Alibaba:
+    - make
+    - gcc
 container_runtime: containerd
 go_version: 1.18.5
 operator_sdk_version: v1.23.0
